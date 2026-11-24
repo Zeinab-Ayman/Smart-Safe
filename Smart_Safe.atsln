@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Smart_Safe", "Smart_Safe\Smart_Safe.cproj", "{09F6465F-CA7D-4AB5-8C91-DACB59D1D8F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F6465F-CA7D-4AB5-8C91-DACB59D1D8F1}.Debug|AVR.ActiveCfg = Debug|AVR
+		{09F6465F-CA7D-4AB5-8C91-DACB59D1D8F1}.Debug|AVR.Build.0 = Debug|AVR
+		{09F6465F-CA7D-4AB5-8C91-DACB59D1D8F1}.Release|AVR.ActiveCfg = Release|AVR
+		{09F6465F-CA7D-4AB5-8C91-DACB59D1D8F1}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

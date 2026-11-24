@@ -1,0 +1,42 @@
+# ===== Microchip Studio / Atmel Studio =====
+Debug/
+Release/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.componentinfo.xml
+*.cppproj.user
+*.atsuo
+
+# ===== Build output =====
+*.o
+*.d
+*.elf
+*.lss
+*.map
+*.eep
+*.srec
+*.lst
+*.a
+*.obj
+
+*.hex
+
+# ===== Proteus =====
+*.pdsbak
+*.pdsclip
+*.workspace
+Backup of *.pdsprj
+Last Loaded *.pdsprj
+*.pdsprj.bak
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
