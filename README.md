@@ -10,8 +10,6 @@ A digital safe lock built on the **ATmega32** microcontroller in bare-metal C. I
 
 https://github.com/user-attachments/assets/92c03d15-3b47-4c76-9dd2-cf6e0522f77a
 
-![Proteus Simulation](docs/simulation.png)
-
 ---
 
 ## ✨ Features
