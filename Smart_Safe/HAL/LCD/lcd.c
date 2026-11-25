@@ -92,14 +92,16 @@ void LCD_vWriteString(const uint8 *u8CopyStr){
 		LCD_vWriteChar(u8CopyStr[i]);
 	}
 }
-void LCD_vWriteInt(uint32 s32CopyInt){
+void LCD_vWriteInt(sint32 s32CopyInt){
 	uint8 arr[10];
 	sint8 i;
 	if(s32CopyInt == 0){
 		LCD_vWriteChar('0');
+		return;
 	}
 	if(s32CopyInt < 0){
 		LCD_vWriteChar('-');
+		s32CopyInt = -s32CopyInt;
 	}
 	while (s32CopyInt > 0) {
 		arr[i] = (s32CopyInt % 10) + '0';
