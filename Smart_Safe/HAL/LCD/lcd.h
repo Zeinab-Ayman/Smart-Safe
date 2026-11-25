@@ -31,6 +31,6 @@ void LCD_vMovecursor(uint8 u8CopyRow,uint8 u8CopyCol);
 void LCD_vWriteChar(uint8 u8CopyChar);
 void LCD_vWriteString(const uint8 *u8CopyStr);
 void LCD_vWriteCMD(uint8 u8CopyCMD);
-void LCD_vWriteInt(uint32 u32CopyInt);
+void LCD_vWriteInt(sint32 s32CopyInt);
 
 #endif /* LCD_H_ */
