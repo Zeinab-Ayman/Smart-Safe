@@ -94,7 +94,7 @@ void LCD_vWriteString(const uint8 *u8CopyStr){
 }
 void LCD_vWriteInt(sint32 s32CopyInt){
 	uint8 arr[10];
-	sint8 i;
+	sint8 i = 0;
 	if(s32CopyInt == 0){
 		LCD_vWriteChar('0');
 		return;
